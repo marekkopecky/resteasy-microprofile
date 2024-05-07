@@ -33,6 +33,8 @@
     <name>RESTEasy MicroProfile: Test Suite</name>
     <properties>
         <jvm.debug.args/>
+        <version.resteasy.testsuite>${version.org.jboss.resteasy}</version.resteasy.testsuite>
+        <version.resteasy.microprofile.testsuite>${project.version}</version.resteasy.microprofile.testsuite>
     </properties>
     <modules>
         <module>integration-tests</module>
